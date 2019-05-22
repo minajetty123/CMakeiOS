@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2720DED65B6D4CB596F666D4 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F0BA622998C84B6F8BB9D2E5 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				C482210DB7CB441A84F0049C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				C9BC1BB1AE4E4C11829C7BFA /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3D6D067A3B454EB087AE8F47 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2EAE01239B6B4838B5ED3E94 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0BCF7A9598CF42BBA619CA4F /* CMake Rules */,
+			);
+			dependencies = (
+				16FBFC1B226A41AC8087F1D2 /* PBXTargetDependency */,
+				D5A4C019C639477AA12BDE09 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BB2BFF57E7EC4EC2BA5CBF6D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 02015A20EBED4DC4B45DC467 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9A5B726F9A12484284664BF8 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7C1EA269D5524244ACC29B40 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloIOS.mm */ = {isa = PBXBuildFile; fileRef = 5221C54EE15D41A6BA018754 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloIOS.mm */; };
+		A8CF2AEB67B54B7B802974AF /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloWorld.h */ = {isa = PBXBuildFile; fileRef = 964A76FC3EBD428FBF99A48D /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloWorld.h */; };
+		AE1ED8F4201C4544B31A3293 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A98ECBFCC911485BAFB1BE96 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/CMakeLists.txt */; };
+		CB45B835EE38490080155693 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloWorld.cpp */ = {isa = PBXBuildFile; fileRef = 256577C6C5AF4ABCBDADD58F /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloWorld.cpp */; };
+		F06344A9D5624881BF61299F /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloIOS.h */ = {isa = PBXBuildFile; fileRef = ED80A6F0E1474C96893909A0 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloIOS.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3DACBB9D38384DD3ABC63A05 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		BC46ADA403214ADBA6649653 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D5463BA7AD34448384857C9B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FECB199C264E4544B1D7D3C6 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		A385283777B54367AA01BDC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D0F1343632949E0B9B0C0ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2BFF57E7EC4EC2BA5CBF6D;
+			remoteInfo = ZERO_CHECK;
+		};
+		AB3B9F5FA6C44C918D4C708A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D0F1343632949E0B9B0C0ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2BFF57E7EC4EC2BA5CBF6D;
+			remoteInfo = ZERO_CHECK;
+		};
+		B94539E0BDB948FABF2F6A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D0F1343632949E0B9B0C0ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D6D067A3B454EB087AE8F47;
+			remoteInfo = ALL_BUILD;
+		};
+		EDCFA85296384A05BA84FC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D0F1343632949E0B9B0C0ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0D74F5B28F4311ABA2F1C7;
+			remoteInfo = "hello-lib";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		256577C6C5AF4ABCBDADD58F /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloWorld.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HelloWorld.cpp; path = HelloWorld.cpp; sourceTree = SOURCE_ROOT; };
+		5221C54EE15D41A6BA018754 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloIOS.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = HelloIOS.mm; path = HelloIOS.mm; sourceTree = SOURCE_ROOT; };
+		5B90ECD6AE194C08B4D01851 /* hello-lib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libhello-lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		724888B287904EB9AE12E8C8 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		964A76FC3EBD428FBF99A48D /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloWorld.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HelloWorld.h; path = HelloWorld.h; sourceTree = SOURCE_ROOT; };
+		A98ECBFCC911485BAFB1BE96 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ED80A6F0E1474C96893909A0 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloIOS.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HelloIOS.h; path = HelloIOS.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0D1CB75B9A254E4E94F30A78 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		10F6A9F00EFB4F829698CBBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B90ECD6AE194C08B4D01851 /* hello-lib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26B580787F0C4C368E75D149 = {
+			isa = PBXGroup;
+			children = (
+				ABB415A6A4A34BAA9763164E /* hello-lib */,
+				AE344799D9804FBA8B7DC7C5 /* ALL_BUILD */,
+				10F6A9F00EFB4F829698CBBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		915FC648A1AB4409BA7BF5DF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5221C54EE15D41A6BA018754 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloIOS.mm */,
+				256577C6C5AF4ABCBDADD58F /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloWorld.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		ABB415A6A4A34BAA9763164E /* hello-lib */ = {
+			isa = PBXGroup;
+			children = (
+				915FC648A1AB4409BA7BF5DF /* Source Files */,
+				C370CDD3DEB3406AA4624434 /* Header Files */,
+				A98ECBFCC911485BAFB1BE96 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/CMakeLists.txt */,
+			);
+			name = "hello-lib";
+			sourceTree = "<group>";
+		};
+		AE344799D9804FBA8B7DC7C5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0D1CB75B9A254E4E94F30A78 /* CMake Rules */,
+				724888B287904EB9AE12E8C8 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C370CDD3DEB3406AA4624434 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED80A6F0E1474C96893909A0 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloIOS.h */,
+				964A76FC3EBD428FBF99A48D /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloWorld.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC0D74F5B28F4311ABA2F1C7 /* hello-lib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD1BA8E913043D09009CA22 /* Build configuration list for PBXNativeTarget "hello-lib" */;
+			buildPhases = (
+				7DA7EE1A02564C16B3C27AAA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D9D9FAC9B4948E5A328F86C /* PBXTargetDependency */,
+			);
+			name = "hello-lib";
+			productName = "hello-lib";
+			productReference = 5B90ECD6AE194C08B4D01851 /* hello-lib */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D0F1343632949E0B9B0C0ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 21DAE0B8527D40F488E2FFE0 /* Build configuration list for PBXProject "hello-lib" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				BC46ADA403214ADBA6649653 /* Debug */,
+				D5463BA7AD34448384857C9B /* Release */,
+				FECB199C264E4544B1D7D3C6 /* MinSizeRel */,
+				3DACBB9D38384DD3ABC63A05 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 26B580787F0C4C368E75D149;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				3D6D067A3B454EB087AE8F47 /* ALL_BUILD */,
+				BB2BFF57E7EC4EC2BA5CBF6D /* ZERO_CHECK */,
+				DC0D74F5B28F4311ABA2F1C7 /* hello-lib */,
+				2720DED65B6D4CB596F666D4 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BCF7A9598CF42BBA619CA4F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/admin/Downloads/ios-cmake/samples/hello-lib/build4 -f /Users/admin/Downloads/ios-cmake/samples/hello-lib/build4/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		4E27D949335D4590BA51D982 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		57861735AD214FDAB0B11FCC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9A5B726F9A12484284664BF8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/admin/Downloads/ios-cmake/samples/hello-lib/build4 -f /Users/admin/Downloads/ios-cmake/samples/hello-lib/build4/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		AAA9B5EEAB1B45D9A7165BA9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C482210DB7CB441A84F0049C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/admin/Downloads/ios-cmake/samples/hello-lib/build4 -f /Users/admin/Downloads/ios-cmake/samples/hello-lib/build4/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DA7EE1A02564C16B3C27AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1EA269D5524244ACC29B40 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloIOS.mm */,
+				CB45B835EE38490080155693 /* /Users/admin/Downloads/ios-cmake/samples/hello-lib/HelloWorld.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16FBFC1B226A41AC8087F1D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0D74F5B28F4311ABA2F1C7 /* hello-lib */;
+			targetProxy = EDCFA85296384A05BA84FC03 /* PBXContainerItemProxy */;
+		};
+		2D9D9FAC9B4948E5A328F86C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2BFF57E7EC4EC2BA5CBF6D /* ZERO_CHECK */;
+			targetProxy = AB3B9F5FA6C44C918D4C708A /* PBXContainerItemProxy */;
+		};
+		C9BC1BB1AE4E4C11829C7BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D6D067A3B454EB087AE8F47 /* ALL_BUILD */;
+			targetProxy = B94539E0BDB948FABF2F6A3E /* PBXContainerItemProxy */;
+		};
+		D5A4C019C639477AA12BDE09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2BFF57E7EC4EC2BA5CBF6D /* ZERO_CHECK */;
+			targetProxy = A385283777B54367AA01BDC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06B8E87B170D4FA1BCCA21C2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		17FEE4FF747B4D43A46F1E80 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		190CC6BDEC6648A485A6AEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3551E55A1EFD4957815331EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		59674219690640E9BB43442E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		5B13F05036CD49F2A7B6949A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		61D34A3917C24292A6A20E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/Downloads/ios-cmake/samples/hello-lib");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -arch arm64 -arch arm64     ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-lib";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		823C97588A05423FA40BA27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		84E6F7D138274A6CA6DA487B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8714A98C22FA4A8287799845 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/Downloads/ios-cmake/samples/hello-lib");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -arch arm64 -arch arm64        -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-lib";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8B0AEBBB817640ECB93CE15B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/Downloads/ios-cmake/samples/hello-lib");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -arch arm64 -arch arm64     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-lib";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A226900EFE0A4FC48FCC4324 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4/build";
+			};
+			name = RelWithDebInfo;
+		};
+		C2DE7D7136374A948AC302AF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C915214FD67742E6A7AA80A3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4/build";
+			};
+			name = MinSizeRel;
+		};
+		D7DF1BCE3E544FDB8E799F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4/build";
+			};
+			name = Release;
+		};
+		DCE4330C62E74162ACF08F2B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E9D4053ABA5F4B578CF607FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4/build";
+			};
+			name = Debug;
+		};
+		EA92C55A47A448A79C04D522 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F3AF850F8D1D483292D45920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/Downloads/ios-cmake/samples/hello-lib");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -arch arm64 -arch arm64     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-lib";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FBC480E91E0F4721B613A3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/Downloads/ios-cmake/samples/hello-lib/build4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02015A20EBED4DC4B45DC467 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC480E91E0F4721B613A3E1 /* Debug */,
+				823C97588A05423FA40BA27B /* Release */,
+				DCE4330C62E74162ACF08F2B /* MinSizeRel */,
+				06B8E87B170D4FA1BCCA21C2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		21DAE0B8527D40F488E2FFE0 /* Build configuration list for PBXProject "hello-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D4053ABA5F4B578CF607FF /* Debug */,
+				D7DF1BCE3E544FDB8E799F33 /* Release */,
+				C915214FD67742E6A7AA80A3 /* MinSizeRel */,
+				A226900EFE0A4FC48FCC4324 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2BD1BA8E913043D09009CA22 /* Build configuration list for PBXNativeTarget "hello-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D34A3917C24292A6A20E92 /* Debug */,
+				F3AF850F8D1D483292D45920 /* Release */,
+				8B0AEBBB817640ECB93CE15B /* MinSizeRel */,
+				8714A98C22FA4A8287799845 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2EAE01239B6B4838B5ED3E94 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190CC6BDEC6648A485A6AEF4 /* Debug */,
+				59674219690640E9BB43442E /* Release */,
+				5B13F05036CD49F2A7B6949A /* MinSizeRel */,
+				C2DE7D7136374A948AC302AF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0BA622998C84B6F8BB9D2E5 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3551E55A1EFD4957815331EA /* Debug */,
+				84E6F7D138274A6CA6DA487B /* Release */,
+				EA92C55A47A448A79C04D522 /* MinSizeRel */,
+				17FEE4FF747B4D43A46F1E80 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D0F1343632949E0B9B0C0ED /* Project object */;
+}
