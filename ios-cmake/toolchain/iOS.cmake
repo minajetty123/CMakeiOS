@@ -38,8 +38,11 @@ set (IOS True)
  set (CMAKE_C_COMPILER_WORKS TRUE)
 
 
- set(CMAKE_C_COMPILER "/usr/bin/gcc")
- set(CMAKE_CXX_COMPILER "/usr/bin/g++")
+ #set(CMAKE_C_COMPILER "/usr/bin/gcc")
+ #set(CMAKE_CXX_COMPILER "/usr/bin/g++")
+
+ set(CMAKE_C_COMPILER "clang")
+ set(CMAKE_CXX_COMPILER "clang++")
 
 # All iOS/Darwin specific settings - some may be redundant
 set (CMAKE_SHARED_LIBRARY_PREFIX "lib")
@@ -55,8 +58,10 @@ set (CMAKE_CXX_OSX_COMPATIBILITY_VERSION_FLAG "${CMAKE_C_OSX_COMPATIBILITY_VERSI
 set (CMAKE_CXX_OSX_CURRENT_VERSION_FLAG "${CMAKE_C_OSX_CURRENT_VERSION_FLAG}")
 
 # Hidden visibilty is required for cxx on iOS 
- set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -arch arm64")
- set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -arch arm64")
+  set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wrestrict")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wrestrict")
+ #set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -arch arm64")
+ #set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -arch arm64")
 # set (CMAKE_CXX_FLAGS "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden")
 
 set (CMAKE_C_LINK_FLAGS "-Wl,-search_paths_first ${CMAKE_C_LINK_FLAGS}")
@@ -142,4 +147,3 @@ set (CMAKE_SYSTEM_FRAMEWORK_PATH
 set (CMAKE_FIND_ROOT_PATH_MODE_PROGRAM ONLY)
 set (CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
 set (CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
-
