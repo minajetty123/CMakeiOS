@@ -50,3 +50,10 @@ Check dependencies
 Write auxiliary files
 write-file /Users/admin/Downloads/ios-cmake/samples/hello-lib/build4/hello-lib.build/Debug/ZERO_CHECK.build/Script-9A5B726F9A12484284664BF8.sh
 chmod 0755 /Users/admin/Downloads/ios-cmake/samples/hello-lib/build4/hello-lib.build/Debug/ZERO_CHECK.build/Script-9A5B726F9A12484284664BF8.sh
+
+
+in summary:
+mkdir build
+cd build
+cmake -DCMAKE_TOOLCHAIN_FILE=/Users/admin/Downloads/ios-cmake/toolchain/iOS.cmake -GXcode ..
+xcodebuild -target install -configuration Debug
