@@ -57,3 +57,11 @@ mkdir build
 cd build
 cmake -DCMAKE_TOOLCHAIN_FILE=/Users/admin/Downloads/ios-cmake/toolchain/iOS.cmake -GXcode ..
 xcodebuild -target install -configuration Debug
+
+make sure:
+clang is installed:
+➜  bin clang --version
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
