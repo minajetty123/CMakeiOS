@@ -8,13 +8,13 @@ include_directories (${hello-lib_SOURCE_DIR})
 # Source files
 set (SRC
 	HelloWorld.cpp
-	HelloIOS.mm
+	#HelloIOS.mm
 )
 
 # Headers
 set (HDR
 	HelloWorld.h
-	HelloIOS.h
+	#HelloIOS.h
 )
 
 
